@@ -1,0 +1,103 @@
+/** topo */
+
+body {
+  font-family: montserrat;
+  margin: 0;
+  margin-top: 70px;
+}
+
+header {
+  margin: 0;
+  background-color: burlywood;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 6rem;
+}
+header div {
+  height: 6rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+.logo {
+  position: relative;
+  max-width: 5rem;
+}
+
+/** main */
+.banner {
+  display: grid;
+  place-items: center;
+  background-image: url(assets/parallax-imagem1.png);
+  background-attachment: fixed;
+  height: 75vh;
+}
+
+.banner h1 {
+  font-size: 5rem;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.section-padrao {
+  margin: 5rem auto;
+  height: 300px;
+  max-width: 600px;
+}
+
+.section-padrao h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: burlywood;
+}
+
+.section-padrao p {
+  text-align: center;
+  max-width: 50ch;
+  font-size: 1.5rem;
+}
+
+.paralax {
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.paralax h3 {
+  font-size: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  background-color: brown;
+  padding: 1rem 2rem;
+  border-radius: 5px 30px;
+}
+.img1 {
+  background-image: url(assets/parallax-imagem1.png);
+}
+.img2 {
+  background-image: url(assets/parallax-imagem2.jpg);
+}
+.img3 {
+  background-image: url(assets/parallax-imagem3.jpg);
+}
